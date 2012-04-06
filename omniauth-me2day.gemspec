@@ -5,7 +5,7 @@ require "omniauth-me2day/version"
 Gem::Specification.new do |s|
   s.name        = "omniauth-me2day"
   s.version     = Omniauth::Me2day::VERSION
-  s.authors     = ["MunShik JEONG, Ohyen KWON"]
+  s.authors     = ["MunShik JEONG, Ohyeon KWEON"]
   s.email       = ["ruseel@gmail.com, rest515@gmail.com"]
   s.homepage    = ""
   s.summary     = %q{Omniauth strategy for me2day }
@@ -21,4 +21,5 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   s.add_runtime_dependency "omniauth"
+  s.add_runtime_dependency "multi_json"
 end
