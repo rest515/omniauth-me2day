@@ -27,7 +27,7 @@ module OmniAuth
           :image => raw_info['face'],
           :description => raw_info['description'],
           :urls => {
-            'Website' => raw_info['me2dayHome']
+            'Me2day' => raw_info['me2dayHome']
           }
         }
       end
